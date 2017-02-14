@@ -11,7 +11,9 @@ Development Environment for Renner
 ### You'll need check before:
  - .NET Framework 4+
  - PowerShell v3+
+
 ### Then run this command in powershell with admin credentials:
+
 ```powershell
 PS C:\set-executionpolicy remotesigned; get-executionPolicy
 ```
@@ -20,10 +22,13 @@ PS C:\set-executionpolicy remotesigned; get-executionPolicy
 [http://ss64.com/ps/set-executionpolicy.html](http://ss64.com/ps/set-executionpolicy.html)
 
 ### To install chocolatey, run this command in powershell with admin credentials:
+
 ```powershell
 PS C:\iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 ```
+
 ### After that, open the cmd with admin privileges:
+
 ```cmd
 C:\choco install git.install virtualbox vagrant curl openssh -y
 ```
@@ -32,6 +37,7 @@ C:\choco install git.install virtualbox vagrant curl openssh -y
 #### Now just download the repository and access the folder.
 
 ## Finally run this command:
+
 ```cmd
 C:\[myrepo]\vagrant up
 ```
