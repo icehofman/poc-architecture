@@ -2,6 +2,7 @@ Development Environment for Renner
 -----------------------------------
 
 ## Prerequisites:
+
  - [Chocolatey](https://chocolatey.org/) - it's a piece of cake! 
  - VirtualBox
  - Vagrant
@@ -9,6 +10,7 @@ Development Environment for Renner
 #### If you haven't the prerequisites above, let's start with chocolatey.
 
 ### You'll need check before:
+
  - .NET Framework 4+
  - PowerShell v3+
 
@@ -17,6 +19,7 @@ Development Environment for Renner
 ```powershell
 PS C:\set-executionpolicy remotesigned; get-executionPolicy
 ```
+
 [https://technet.microsoft.com/pt-br/library/ee176961.aspx](https://technet.microsoft.com/pt-br/library/ee176961.aspx)
 
 [http://ss64.com/ps/set-executionpolicy.html](http://ss64.com/ps/set-executionpolicy.html)
@@ -34,6 +37,7 @@ C:\choco install git.install virtualbox vagrant curl openssh -y
 ```
 
 #### Your development environment is ready.
+
 #### Now just download the repository and access the folder.
 
 ## Finally run this command:
