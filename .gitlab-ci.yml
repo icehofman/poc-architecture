@@ -11,4 +11,4 @@ stages:
 job1:
   stage: build
   script:
-    - execute-script-for-job1
+    - groovy --version
