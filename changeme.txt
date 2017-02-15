@@ -1,0 +1,4 @@
+# Criar um pseudocodigo abaixo:
+Ex:
+int result = 1 + 3
+println "Oi" + result
