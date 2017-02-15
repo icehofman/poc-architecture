@@ -1,6 +1,8 @@
 Development Environment for Renner
 -----------------------------------
 
+[![build status](https://gitlab.dbserver.com.br/renner-piloto/poc-architecture/badges/master/build.svg)](https://gitlab.dbserver.com.br/renner-piloto/poc-architecture/commits/master)
+
 ## Prerequisites:
 
  - [Chocolatey](https://chocolatey.org/) - it's a piece of cake! 

@@ -1,0 +1,6 @@
+before_script:
+  - apt-get update
+  - curl -s http://get.sdkman.io | bash
+  - sdk install java 8u121
+  - sdk install groovy 2.4.8
+  - groovy --version
