@@ -4,3 +4,11 @@ before_script:
   - sdk install java 8u121
   - sdk install groovy 2.4.8
   - groovy --version
+
+stages:
+  - build
+
+job1:
+  stage: build
+  script:
+    - execute-script-for-job1
